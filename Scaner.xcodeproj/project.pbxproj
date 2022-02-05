@@ -15,6 +15,7 @@
 		C8F572FA27AE8C3D009BB07B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F572F927AE8C3D009BB07B /* Model.swift */; };
 		C8F572FC27AE8C93009BB07B /* RecognizedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F572FB27AE8C93009BB07B /* RecognizedContent.swift */; };
 		C8F572FE27AE8D5B009BB07B /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F572FD27AE8D5B009BB07B /* TextRecognition.swift */; };
+		C8F5730027AE95AC009BB07B /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F572FF27AE95AC009BB07B /* TextPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C8F572F927AE8C3D009BB07B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C8F572FB27AE8C93009BB07B /* RecognizedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedContent.swift; sourceTree = "<group>"; };
 		C8F572FD27AE8D5B009BB07B /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		C8F572FF27AE95AC009BB07B /* TextPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C8F572E827AE809D009BB07B /* ContentView.swift */,
+				C8F572FF27AE95AC009BB07B /* TextPreviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				C8F572E727AE809D009BB07B /* ScanerApp.swift in Sources */,
 				C8F572FE27AE8D5B009BB07B /* TextRecognition.swift in Sources */,
 				C8F572FA27AE8C3D009BB07B /* Model.swift in Sources */,
+				C8F5730027AE95AC009BB07B /* TextPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +316,7 @@
 				DEVELOPMENT_TEAM = PZ4TJ9HJ8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +346,7 @@
 				DEVELOPMENT_TEAM = PZ4TJ9HJ8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
